@@ -1,6 +1,6 @@
 # Flight Tracker
 
-The purpose of this program is to allow the airline operators to track all of their flights, the passengers on the current flights, and the amount of seats available. The the airline will be able to see upcoming flights, and be able to reserve seats and book passengers on them. Concepts were learned in computer science courses and independently, such as OOP and threads. Initially completed June 2017, although improvements have been made since then.
+The purpose of this program is to allow the airline operators to track all of their flights, the passengers on the current flights, and the amount of seats available. The airline will be able to see upcoming flights, and be able to reserve seats and book passengers on them. Concepts were learned in computer science courses and independently, such as OOP and threads. Initially completed June 2017, although improvements have been made since then.
 
 ## Getting Started
 

@@ -1,6 +1,6 @@
-# Project Title
+# Flight Tracker
 
-One Paragraph of project description goes here
+The purpose of this program is to allow the airline operators to track all of their flights, the passengers on the current flights, and the amount of seats available. The the airline will be able to see upcoming flights, and be able to reserve seats and book passengers on them. Concepts were learned in computer science courses and independently, such as OOP and threads. Initially completed June 2017, although improvements have been made since then.
 
 ## Getting Started
 
@@ -8,67 +8,56 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+For development purposes:
+* [Java](https://www.java.com/en/download/) (any recent version will be compatible)
+* Java IDE (preferably Netbeans) or other java compiling tools / software
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+For convenience, a compiled JAR file is provided in the folder 'Compiled JAR'. Simply download this file to view the program.
 
-Say what the step will be
+If the code is required for development purposes, either clone or download the repository. Open this code with the IDE of your choice to compile it, or use other compiling tools.
 
-```
-Give the example
-```
+### How To Use
 
-And repeat
+* When the program is opened, click on the "Load Program" button in the centre of the screen.
+* Next is a graphical interface that shows the animation of current planes. To speed up the animations, click one of the buttons in the top left.
 
-```
-until finished
-```
+To see passengers of current planes:
+* Click on one of the "Info" buttons in the top right of the screen to open the interface for that plane.
+* To see information about a specific passenger, click on a seat. A red seat is taken, a green one is empty.
+* Click on the "Back to Radar" button to return to the previous screen
 
-End with an example of getting some data out of the system or using it for a little demo
+For plane info and booking:
+* Click in the "Manage Flights" button in the bottom left of the screen.
+* The two charts show the current and upcoming flights, with information about them.
+* To book a new flight, click the "Book New Flight" button, and enter required information.
+* To book a new passenger, click the "Book New Passenger" button, and enter required information.
+* Click on the "Back to Radar" button to return to the previous screen.
 
-## Running the tests
+### Key Features
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+* Graphical animation of plane icons
+* Predictive arrival times based on distance
+* Ability to speed up animation, will automatically adjust time
+* Able to book custom flights with passenger, these flights will then be animated across the map
+* Organized management of flights
+* Saved log file of all activity of the program during the session
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Java](https://www.java.com/en/) - The language used
+* [Netbeans IDE](https://netbeans.org/) - Swing GUI builder
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+**Branden Lisk**
 
 ## Screenshots
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Welcome Screen](/screenshots/welcome.png?raw=true)
+
+![Main Screen](/screenshots/main.png?raw=true)
+
+![Booking Screen](/screenshots/booking.png?raw=true)
+
+![Plane Info Screen](/screenshots/plane.png?raw=true)

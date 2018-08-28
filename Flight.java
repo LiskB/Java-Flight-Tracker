@@ -1,11 +1,3 @@
-/*
- * Programmer: Branden Lisk
- * Date: June 2 2017
- * The purpose of this program is to allow the airline operators to track all of their flights,
- * the passengers on the current flights, and the amount of seats available. The the airline will
- * be able to see upcoming flights, and be able to reserve seats and book passengers on them.
- */
-
 package flight;
 
 //import all resources
